@@ -11,5 +11,9 @@ class ReviewViewSet(viewsets.ModelViewSet):
     queryset = Review.objects.all()
     serializer_class = ReviewSerializer
 
+# class ReviewViewSet1(viewsets.ModelViewSet):
+#     queryset = Review.objects.delete()
+#     serializer_class = ReviewSerializer
+
 
 # Create your views here.

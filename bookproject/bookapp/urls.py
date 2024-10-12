@@ -6,6 +6,8 @@ from .views import BookViewSet, ReviewViewSet
 router = DefaultRouter()
 router.register(r'books', BookViewSet)
 router.register(r'reviews', ReviewViewSet)
+# router.register(r'reviews', ReviewViewSet1)
+
 
 urlpatterns = [
     path('', include(router.urls)),
